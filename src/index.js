@@ -66,7 +66,7 @@ const requestCards = (myId) => {
     addElementsAuto(array, myId);
   })
   .catch((err) => {
-    console.log('Ошибка. Запрос не выполнен');
+    console.log('Ошибка.Запрос не выполнен');
   });
 }
 
